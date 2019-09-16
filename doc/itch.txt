@@ -1,0 +1,86 @@
+*itch.txt* A micro-plugin for opening [Scratch] buffers in Vim.
+
+Author: Hamish Miller <hamishcomiller@googlemail.com>
+
+
+==============================================================================
+INTRODUCTION                                                *itch*
+
+Vim's [Scratch] buffers are very useful, but opening them is non-intuitive.
+
+`:help` |special-buffers| defines a scratch buffer as:
+>
+    :setlocal buftype=nowrite
+    :setlocal bufhidden=delete
+    :setlocal noswapfile
+<
+
+This plugin abstracts these details away behind a more friendly interface.
+
+
+==============================================================================
+CONTENTS                                                    *itch-contents*
+
+    1. COMMANDS ............. |itch-commands|
+    2. LICENSE .............. |itch-license|
+    3. CREDITS .............. |itch-credits|
+    4. CONTACT .............. |itch-contact|
+
+
+==============================================================================
+COMMANDS                                                    *itch-commands*
+
+These commands will respect user-defined preferences for opening splits/tabs.
+
+                                                            *:ScratchSplit*
+:ScratchSplit           Open a [Scratch] buffer in a new split.
+
+                                                            *:ScratchVSplit*
+:ScratchVSplit          Open a [Scratch] buffer in a new vsplit.
+
+                                                            *:ScratchTab*
+:ScratchTab             Open a [Scratch] buffer in a new tab.
+
+
+==============================================================================
+LICENSE                                                     *itch-license*
+
+This plugin is freely distributed under the MIT License.
+
+
+==============================================================================
+CREDITS                                                     *itch-credits*
+
+Particular thanks to Steve Losh, as this plugin could not exist without the
+fantastic resource that is Learn Vimscript the Hard Way.
+
+    http://learnvimscriptthehardway.stevelosh.com/
+    https://github.com/sjl/
+
+
+Additional thanks to the the following plugin authors, the source code of
+their projects were all used as inspiration for good vimscript practices:
+
+    tpope     https://github.com/tpope/
+    junegunn  https://github.com/junegunn
+    w0rp      https://github.com/w0rp
+
+
+==============================================================================
+CONTACT                                                     *itch-contact*
+
+If you would like to help contribute to this plugin, please visit:
+
+    https://github.com/hamish-miller/itch
+
+
+If you wish to contact the author of this plugin directly, please email:
+
+    hamishcomiller@googlemail.com
+
+
+Otherwise, enjoy your new micro-plugin, I hope it scratches your itch.
+
+
+==============================================================================
+ vim:tw=78:et:ft=help:norl:
